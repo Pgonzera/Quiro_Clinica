@@ -24,18 +24,28 @@ header{
     margin-bottom: 200px;
     position: fixed;
 }
+a{
+    text-decoration: none;
+    color:black
+
+}
+
+a:hover{
+    color:#25b2f9;
+}
+
 li{
     display: inline-block;
     margin:20px;
 
 }
 h1{
-    color:#00aa9f;
+    color:#69b80c;
 
 }
 
 span{
-    color: #0d77b5;
+    color: #25b2f9;
 }
 
 #logo{
@@ -58,7 +68,6 @@ span{
 }
 
 #topo_do_site{
-    margin-bottom: 200px;
     margin-top: 170px;
     justify-content: space-around;
     display: flex;
@@ -83,8 +92,7 @@ span{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 600px;
-    margin-bottom: 300px;
+    margin-top: 200px;
     font-size: 25px;
 
 }
@@ -113,8 +121,17 @@ span{
     width: 900px;
 }
 
+#portfolioArea{
+    height: 300px;
+}
+
 #trabalho1{
-margin-bottom: 300px;
+
+    margin-bottom: 300px;
+}
+
+#trabalho1 img{
+    max-height: 750px;
 }
 
 #trabalho2{
