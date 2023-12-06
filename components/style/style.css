@@ -14,7 +14,8 @@ body{
 header{
    /* background-color: #0d77b5;*/
     background-color: #d3d3d3;
-   margin-top: -170px;
+    background: none;
+   margin-top: -180px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -33,8 +34,11 @@ a{
 a:hover{
     color:#25b2f9;
 }
-
+ul{
+    background-color: #d3d3d3;
+}
 li{
+    background-color: #d3d3d3;
     display: inline-block;
     margin:20px;
 
@@ -49,6 +53,7 @@ span{
 }
 
 #logo{
+    background-color: #d3d3d3;
     width: 210px;
     height: 150px;
 }
@@ -68,7 +73,7 @@ span{
 }
 
 #topo_do_site{
-    margin-top: 170px;
+    margin-top: 180px;
     justify-content: space-around;
     display: flex;
     flex-direction: row;
@@ -92,7 +97,7 @@ span{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 00px;
     font-size: 25px;
 
 }
