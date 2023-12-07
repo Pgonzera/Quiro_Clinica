@@ -77,8 +77,8 @@ span{
 }
 
 #topo_do_site{
-    margin-bottom: -2000px;
     margin-top: 180px;
+    margin-bottom: -500px;
     justify-content: space-around;
     display: flex;
     flex-direction: row;
