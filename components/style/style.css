@@ -58,6 +58,10 @@ span{
     height: 150px;
 }
 
+#imgTexto{
+    text-align: center;
+}
+
 #descricao{
     text-align: center;
     text-transform: uppercase;
@@ -97,7 +101,7 @@ span{
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 00px;
+    margin-bottom: 200px;
     font-size: 25px;
 
 }
@@ -143,30 +147,53 @@ span{
     margin-bottom: 300px;
 }
 
+
 #formulario{
     display: flex;
     flex-direction: column;
 }
 
 form{
+    align-items:center;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+#form{
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: auto ;
-  gap: 1px;
-  padding: 2px;
   width: 300px;
-  height: 300px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 form textarea{
     margin: auto;
-    gap: 10px;
+    width: 400px;
+    height: 400px;
+    resize: none;
 }
 
+#enviar{
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    border: none;
+    color:white;
+    background-color:#25b2f9
+}
+
+#enviar:hover{
+    background-color:#69b80c
+}
 
 #contato{
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 #contato p {
@@ -226,4 +253,15 @@ footer{
     #portfolio img{
         width: 380px;
     }   
+
+    #img3{
+        height: 400px;
+    }
+
+    form textarea{
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        resize: none;
+    }
 }

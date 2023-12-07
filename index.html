@@ -11,9 +11,9 @@
         <img  id="logo" src="./components/img/imagem_2023-12-01_153727112-removebg-preview.png" alt="">
         <nav></nav>
             <ul>
-                <li><a href="#sobreArea ">Sobre</a></li>
-                <li><a href="#portfolioArea">trabalhos</a></li>
-                <li><a href="#contato">contato</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Trabalhos">trabalhos</a></li>
+                <li><a href="#Area_de_contato">contato</a></li>
             </ul>
         </nav>
     </header>
@@ -24,43 +24,91 @@
             <p>A maneira inteligente de tratar dores nas costas</p>
         </div>
         <div id="imagem_topo">
-        <img id="img_placeholder" src="./components/img/7d8429c45731acf5a27316ce946ece4f005b8947.jpg" alt="">
+        <img id="img_placeholder" src="./components/img/Dr_vinicius-transformed.jpeg" alt="Dr. Vinícius 12 anos de experiência em dores com a Quiropraxia.">
+        <p id="imgTexto">Dr. Vinícius 12 anos de experiência em dores com a Quiropraxia.</p>
         </div>
     </main>
     
-    <div id="sobreArea"></div>
+    <div id="Sobre"></div>
     <section id="sobre" style="margin-top: 500px;">
         <h2>Quem somos?</h2>
         <img src="./components/img/TV_diagnýstico-transformed-cut.jpeg" alt="">
         <p>Dr.Marcus Vinicius de Paula formado em Quiropraxia pelo  IBraqui (Instituto Brasileiro de Quiropraxia) em São Paulo desde 2011. Aonde se busca a excelência e eficácia no diagnóstico, tratamento e prevenção na síndromes e doenças relacionadas ao Sistema Músculo-esquelético.</p>
+        <div id="Trabalhos"></div><br>
     </section>
 
 
-    <div id="portfolioArea"></div><br>
+    
     <section id="portfolio">
 
         <div id="trabalho1">
-            <img src="./components/img/WhatsApp Image 2023-12-03 at 16.14.07 (1).jpeg" alt="">
+            <p>Treinamento e Mentoria. Caso você seja um profissional, entre em contato pois posso lhe passar todo o passo a passo e encurtar sua curva para o sucesso!</p>
+            <img src="./components/img/mentorias-unowPTvpl-transformed.jpeg" alt="">
         </div>
 
         <div id="trabalho2">
-            <p>Arrume a postura das costas</p>
-            <img src="./components/img/quiroprata.jpg" alt="">
+            <p>O alinhamento correto da sua Coluna Vertebral leva bem estar para todo seu corpo.</p>
+            <img src="./components/img/Vinicius_e_quadro-transformed.jpeg" alt="O alinhamento correto da sua Coluna Vertebral leva bem estar para todo seu corpo.">
         </div>
-    </section>
 
-    <section id="contato" style="text-align: center;">
-        <p>Entre em contato pelo nosso whatsApp:</p>
-        <a href=""><img src="./components/img/WhatsApp_Logo_PNG_Transparente_Sem_Fundo.png" width="70px" alt=""></a>
-    </section>
+        <div id="trabalho2">
+            <p>Dor nas costas é um dos sinais mais óbvios de que é a  hora de uma visita ao Quiropraxista</p>
+            <img  id="img3" src="./components/img/vinicius e cliente.jpg" height="700px" alt="Dor nas costas é um dos sinais mais óbvios de que é a  hora de uma visita ao Quiropraxista">
+        </div>
 
-    <!--<section id="formulario">
-        <form method="POST" action="https://formsubmit.co/your@email.com" enctype="multipart/form-data">
-            <input type="email" name="email" placeholder="Your email">
-            <textarea name="message" placeholder="Details of your problem"></textarea>
-            <button type="submit">Send Test</button>
-        </form>
-    </section>-->
+        <div id="trabalho2">
+            <p>Excelência em Pediatria!</p>
+            <img id="img3" src="/components/img/quiropraxia infantil.jpg" height="700px" alt="Dr. Vinícius realizando movimentos de quiropraxia em uma criança">
+        </div>
+
+        <div id="trabalho2">
+            <p>Atendimento de vários atletas que buscam sempre cuidar e prevenir lesões. Se você também é um atleta, venha fazer parte do nosso time!</p>
+            <img id="img3" src="./components/img/viniciu e atleta.jpg" height="700px" alt="Dr. Vinícius realizando tratamento em um atleta">
+            <div id="Area_de_contato"></div>
+        </div>
+        
+    </section>
+    
+
+   <section>
+    <form action="https://formsubmit.co/your@email.com" method="POST">
+        <input id="form" type="text" name="name" placeholder="Nome" required>
+        <input id="form" type="email" name="email" placeholder="Email" required>
+        <input id="form" type="tel" name="whatsapp" placeholder="Número de WhatsApp" required>
+
+        <label id="Pergunta1">Já fez o tratamento quiropraxico?</label><br><br>
+
+        <input type="radio" id="sim" name="conheceQuiropraxia" value="Sim">
+        <label for="sim">Sim</label>
+    
+        <input type="radio" id="nao" name="conheceQuiropraxia" value="Não">
+        <label for="nao">Não</label><br><br>
+
+        <label>Qual sua expectativa sobre a quiropraxia?</label><br><br>
+        <input type="radio" id="baixa" name="expectativa" value="Baixa">
+        <label for="baixa">Baixa</label>
+
+        <input type="radio" id="media" name="expectativa" value="Média">
+        <label for="media">Média</label>
+
+        <input type="radio" id="alta" name="expectativa" value="Alta">
+        <label for="alta">Alta</label><br><br>
+
+        <label for="motivoDaProcura">Qual motivo ou queixa da procura de Quiropraxia?</label><br>
+        <textarea name="motivoDaProcura" id="MDP" cols="30" rows="10"></textarea><br>
+        
+        
+      
+        <button id="enviar" type="submit">Enviar</button>
+   </form>
+   </section>
+
+   <section id="contato" style="text-align: center;">
+    <p>Entre em contato pelo nosso whatsApp:</p>
+    <a href=""><img src="./components/img/WhatsApp_Logo_PNG_Transparente_Sem_Fundo.png" width="70px" alt="Link para WhatsApp"></a>
+</section>
+
+
     <footer>
         <ul>
             <li><a href="#sobreArea ">Sobre</a></li>
