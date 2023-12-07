@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <img  id="logo" src="./components/img/imagem_2023-12-01_153727112-removebg-preview.png" alt="">
+       <a href="./index.html"><img  id="logo" src="./components/img/imagem_2023-12-01_153727112-removebg-preview.png" alt=""></a> 
         <nav></nav>
             <ul>
                 <li><a href="#Sobre">Sobre</a></li>
@@ -71,17 +71,17 @@
     
 
    <section>
-    <form action="https://formsubmit.co/your@email.com" method="POST">
+    <form action="https://formsubmit.co/contatopedrogonsaga@gmail.com" method="POST">
         <input id="form" type="text" name="name" placeholder="Nome" required>
         <input id="form" type="email" name="email" placeholder="Email" required>
         <input id="form" type="tel" name="whatsapp" placeholder="Número de WhatsApp" required>
 
         <label id="Pergunta1">Já fez o tratamento quiropraxico?</label><br><br>
 
-        <input type="radio" id="sim" name="conheceQuiropraxia" value="Sim">
+        <input type="radio" id="sim" name="já_Fez_Quiropraxia" value="Sim">
         <label for="sim">Sim</label>
     
-        <input type="radio" id="nao" name="conheceQuiropraxia" value="Não">
+        <input type="radio" id="nao" name="já_Fez_Quiropraxia" value="Não">
         <label for="nao">Não</label><br><br>
 
         <label>Qual sua expectativa sobre a quiropraxia?</label><br><br>
@@ -95,9 +95,13 @@
         <label for="alta">Alta</label><br><br>
 
         <label for="motivoDaProcura">Qual motivo ou queixa da procura de Quiropraxia?</label><br>
-        <textarea name="motivoDaProcura" id="MDP" cols="30" rows="10"></textarea><br>
+        <textarea name="motivo_Da_Procura" id="MDP" cols="30" rows="10"></textarea><br>
         
-        
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="Novo contato!">
+        <input type="hidden" name="_next" value="https://pgonzera.github.io/Quiro_Clinica/">
+
+
       
         <button id="enviar" type="submit">Enviar</button>
    </form>
@@ -116,5 +120,12 @@
             <li><a href="#contato">contato</a></li>
         </ul>
     </footer>
+
+    <script>
+           document.getElementById('enviar').addEventListener('click', function() {
+        // Adicione aqui o código que você deseja executar ao clicar no botão
+        alert("Formulário enviado!");
+    });
+    </script>
 </body>
 </html>
