@@ -48,6 +48,10 @@ h1{
 
 }
 
+h2{
+    text-align: center;
+}
+
 span{
     color: #25b2f9;
 }
@@ -78,11 +82,11 @@ span{
 
 #topo_do_site{
     margin-top: 180px;
+    
     justify-content: space-around;
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 
 #topo_do_site p {
@@ -98,6 +102,7 @@ span{
 }
 
 #sobre{
+    margin-top: -1300px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -154,6 +159,11 @@ span{
 }
 
 form{
+    margin: auto;
+    border-radius: 5px;
+    background-color:#035477;
+    color: white;
+    max-width: 450px;
     align-items:center;
     text-align: center;
     padding: 10px;
@@ -161,6 +171,9 @@ form{
 }
 
 #form{
+  background-color:#d4d4d4;
+  border: none;  
+  border-radius: 5px;  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -171,10 +184,16 @@ form{
   padding: 10px;
 }
 form textarea{
+    background-color:#d4d4d4;
     margin: auto;
     width: 400px;
-    height: 400px;
+    height: 300px;
     resize: none;
+    border-radius: 5px;
+}
+
+label{
+  margin-bottom: 100px;
 }
 
 #enviar{
