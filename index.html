@@ -128,10 +128,10 @@
     </footer>
 
     <script>
-           document.getElementById('enviar').addEventListener('click', function() {
-        // Adicione aqui o código que você deseja executar ao clicar no botão
-        alert("Formulário enviado!");
-    });
+        const frm = document.querySelector('form')
+        frm.addEventListener("submit", (e) => {
+            alert('Formulário enviado')
+        });
     </script>
 </body>
 </html>
