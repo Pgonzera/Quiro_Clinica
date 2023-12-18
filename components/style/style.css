@@ -14,8 +14,7 @@ body{
 header{
    /* background-color: #0d77b5;*/
     background-color: #d3d3d3;
-    background: none;
-   margin-top: -180px;
+    margin-top: -180px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
